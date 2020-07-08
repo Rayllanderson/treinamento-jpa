@@ -19,6 +19,9 @@ public class Inserindo {
 	em.getTransaction().commit();
 	
 	System.out.println("Cliente inserido com sucesso!");
+	
+	em.close();
+	emf.close();
 
     }
 
