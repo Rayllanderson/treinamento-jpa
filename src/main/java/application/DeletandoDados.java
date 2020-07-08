@@ -6,7 +6,7 @@ import javax.persistence.Persistence;
 
 import dominio.Cliente;
 
-public class deletandoDados {
+public class DeletandoDados {
 
     public static void main(String[] args) {
 	EntityManagerFactory emf = Persistence.createEntityManagerFactory("treinamento-jpa");
